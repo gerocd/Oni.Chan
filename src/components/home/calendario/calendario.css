@@ -1,0 +1,58 @@
+.cont_calendario{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto ;
+    grid-gap: 1rem;
+    grid-template-areas:
+        'hdr hdr hdr'
+        "cal cal cal"
+        'ftr ftr ftr';
+}
+.hdr{
+    grid-area: hdr;
+}
+.ftr{
+    grid-area: ftr;
+    position: fixed;
+    bottom: 0;
+}
+.cal{
+    grid-area: cal;
+    margin: 4rem 3rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dias{
+    display: table;
+    width: 100%;
+
+}
+.dia{
+    display: table-cell;
+    width: 13.7%;
+    box-sizing: border-box;
+    min-width: 8.125rem;
+    padding: 0.3125rem;
+    vertical-align: top;
+ 
+   
+}
+.listdia{
+    font-weight: 600;
+    text-align: center;
+    padding: 1rem;
+    background-color: rgb(41, 41, 41);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.l{
+    list-style: none;
+    
+}
+.bordes{
+    border-bottom: 1px solid #CBA717;
+}
+.ldia{
+    margin-top: 1rem;
+}

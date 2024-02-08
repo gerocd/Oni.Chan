@@ -1,0 +1,33 @@
+.pie__pagina {
+    display: grid;
+    grid-template-rows: 75px;
+    grid-gap: 1rem;
+    grid-template-areas:
+        "copyright iconos";
+}
+
+.copyright {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    margin-left: -18rem;
+}
+
+.iconos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: space-around;
+    position: relative;
+    margin-right: 0.7rem;
+}
+
+.icon {
+    margin-right: 1rem;
+    color: #ffffff;
+}
+
+svg {
+    width: 25px;
+    height: 25px;
+}

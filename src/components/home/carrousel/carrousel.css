@@ -1,0 +1,22 @@
+.cont_carrousel {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.btn_carrousel{
+    margin: 0 1rem;
+    padding: 0.3rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+.btn_carrousel:hover{
+    box-shadow: 0 0 10px  #CBA717;
+    border: 1px solid  #CBA717;
+}
+.btn_carrousel:active{
+    transform: translateY(-1px);
+    box-shadow: 0 0 10px  #cba71775;
+}

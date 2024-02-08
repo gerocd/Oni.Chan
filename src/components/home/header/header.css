@@ -1,0 +1,87 @@
+.content_header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.header_logo {
+    margin-left: 10%;
+}
+
+.logo {
+    width: auto;
+    height: 50px;
+    border-radius: 0.4rem;
+}
+
+.user {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.user_img {
+    height: 47px;
+    width: 47px;
+    border-radius: 50%;
+}
+
+.header_menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header_user {
+    display: flex;
+    justify-content: end;
+    grid-gap: 2.3rem;
+    margin-right: 10%;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    grid-gap: 2.3rem;
+}
+.boton_explorar{
+    font-family: glacial-indifference-bold, sans-serif;
+    font-size: medium;
+}
+.boton_explorar:hover {
+    color: #CBA717;
+}
+
+.boton_calendario:hover {
+    color: #CBA717;
+}
+
+.boton_contactos:hover {
+    color: #CBA717;
+}
+
+.menu_user {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropdown_cont{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    border: 1px solid white;
+}
+
+.dropdown:hover .dropdown_cont{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 0.7rem;
+
+}

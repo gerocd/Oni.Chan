@@ -1,0 +1,28 @@
+.cont_main{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-gap: 3rem;
+    grid-template-areas: 
+        'f1 f1 f1 f1'
+        'f2 f2 f2 f2'
+        'f3 f3 f3 f3'
+        'f4 f4 f4 f4';
+    margin: 2rem 0;
+}
+.cont_card{
+    display: flex;
+    justify-content: space-evenly;
+}
+.f1{
+    grid-area: f1;
+}
+.f2{
+    grid-area: f2;
+}
+.f3{
+    grid-area: f3;
+}
+.f4{
+    grid-area: f4;
+}

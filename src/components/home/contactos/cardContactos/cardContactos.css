@@ -1,0 +1,27 @@
+.contactCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 320px;
+    height: auto;
+    border-radius: 7px;
+    border-radius: 2rem;
+    border: 1px solid #e6bb13b2;
+    box-shadow: 0px 0px 20px #ddb40e;
+
+}
+.lower_container{
+    padding: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cardImg{
+    margin: 2rem;
+    border-radius: 2rem;
+}
+.card_Img{
+    width: 250px;
+    border-radius: 2rem;
+}
+.txt{
+margin-top: 0.7rem;
+}

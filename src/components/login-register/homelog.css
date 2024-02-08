@@ -1,0 +1,81 @@
+.caja {
+    width: 350px;
+    height: 450px;
+    margin-left: 41%;
+    margin-top: 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    box-shadow: 0 0px 30px #CBA717;
+}
+
+.content_box {
+    width: 100%;
+    height: 100%;
+}
+
+.txt_titulo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
+.box_txt {
+    width: 250px;
+    height: 20px;
+    padding: 0.5rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.content__main_inp{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.icon_txt{
+    width: 20px;
+    padding: 0.5rem;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    background-color: #aaa821;
+}
+
+.content__main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+
+}
+.contenedor_btn{
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+.btn_login{
+    width: 80%;
+    padding: 0.6rem 1rem;
+    background-color: #2b2b2b;
+    border: 1px solid #ddb513;
+    border-radius: 1rem;
+    box-shadow: 0 0 8px #CBA717;
+    text-align: center;
+}
+.btn_recorder{
+    display: flex;
+    flex-direction: row;
+    grid-gap: 0.5rem;
+}
+.txt_olvPass{
+    display: flex;
+    grid-gap: 0.5rem;
+}
+.txt_reg{
+    display: flex;
+    grid-gap: 0.3rem;
+}

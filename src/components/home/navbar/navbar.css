@@ -1,0 +1,22 @@
+.navbar_item {
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 3rem;
+    justify-content: center;
+}
+
+.btn_navbar {
+    padding: 0.6rem 1.3rem;
+    border-radius: 0.4rem;
+    border: 2px solid rgba(56, 56, 56, 0.075);
+}
+
+.btn_navbar:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(219, 219, 219, 0.2);
+}
+
+.btn_navbar:active {
+    transform: translateY(-1px);
+    box-shadow: 0 3px 7px rgba(75, 75, 75, 0.2);
+}

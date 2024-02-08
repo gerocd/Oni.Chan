@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(18, 18, 18);
+  color: rgb(139, 137, 137);
+}
+button{
+  border: none;
+}
+button:focus{
+  outline: none;
+}
+a{
+  text-decoration: none;
+  font-family: glacial-indifference-bold, sans-serif;
+}
